@@ -26,7 +26,7 @@ $name = basename($_FILES["files"]["name"]);
 $videodesination = "upload";
 
 $imageFile= $name.".jpg";
-$size = "120x90";
+$size = "270x150";
 $getFromSecond ="5";
 
 //shell_exec("ffmpeg -i ".$videoFile." -an -ss" .$getFromSecond. "-s $size $imageFile"); 
